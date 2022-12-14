@@ -7,57 +7,22 @@
 }
 
 body {
-    min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background: black;
-    overflow: hidden;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
 }
 
-.container {
-    width: 246px;
-    overflow: hidden;
-}
-
-.container .text {
-    position: relative;
-    color: #ffffff;
-    text-shadow: 0 0 10px #fff;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.container .text.first-text {
-    color: #FFF;
-}
-
-.text.sec-text:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #000000;
-    border-left: 2px solid #ffffff;
-    text-shadow: 0 0 10px #fff;
-    animation: animate 4s steps(12) infinite;
-}
-
-@keyframes animate {
-    40%,
-    60% {
-        left: calc(100% + 4px);
-    }
-    100% {
-        left: 0%;
-    }
+header {
+    color: aliceblue;
+    font-size: xx-large;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff;
 }
 
 footer {
     color: aliceblue;
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff;
     position: fixed;
     left: 0;
     bottom: 0;
