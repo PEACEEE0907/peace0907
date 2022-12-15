@@ -31,3 +31,18 @@ footer {
     color: aliceblue;
     text-align: left;
 }
+
+span {
+    display: inline;
+    /* the default for span */
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    color: aliceblue;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
